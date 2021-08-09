@@ -104,7 +104,7 @@ menuItems: [
     name: 'Home', // 要跳转的路由名称 不是路径
     size: 18, // icon大小 非必填
     type: 'md-home', // icon类型 非必填
-    text: '主页' // 文本内容
+    text: '主页', // 文本内容
   },
   {
     text: '二级菜单',
@@ -114,7 +114,7 @@ menuItems: [
         type: 'ios-grid',
         name: 'T1',
         text: '表格',
-        hidden: true // 可以在菜单中隐藏此菜单项，但还是可以访问此页面，只是不能在菜单栏中看见。
+        hidden: true, // 可以在菜单中隐藏此菜单项，但还是可以访问此页面，只是不能在菜单栏中看见。
       },
       {
         text: '三级菜单',
@@ -123,21 +123,21 @@ menuItems: [
           {
             type: 'ios-notifications-outline',
             name: 'Msg',
-            text: '查看消息'
+            text: '查看消息',
           },
           {
             type: 'md-lock',
             name: 'Password',
-            text: '修改密码'
+            text: '修改密码',
           },
           {
             type: 'md-person',
             name: 'UserInfo',
-            text: '基本资料'
-          }
-        ]
-      }
-    ]
-  }
+            text: '基本资料',
+          },
+        ],
+      },
+    ],
+  },
 ]
 ```
